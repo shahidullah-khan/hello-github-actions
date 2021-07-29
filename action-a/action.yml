@@ -1,0 +1,16 @@
+name: "Hello Actions"
+description: "Greeting someone"
+author: "shahidullah-khan@github.com"
+
+inputs: 
+  MY_NAME:
+    description: "who to greet"
+    required: true
+    default: "World"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  
+branding:
+  icon: "mic"
+  color: "purple"
